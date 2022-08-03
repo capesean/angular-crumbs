@@ -15,5 +15,10 @@ export default {
 		'rxjs/add/operator/mergeMap': 'Rx.Observable.prototype',
 		'rxjs/add/observable/fromEvent': 'Rx.Observable',
 		'rxjs/add/observable/of': 'Rx.Observable'
-	}
+	},
+	external: [
+		'@angular/core',
+		'@angular/common',
+		'@angular/router'
+	]
 }
